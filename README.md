@@ -98,4 +98,4 @@ This project is open source under the [MIT License](LICENSE).
 
 ## ✉️ Credits
 
-Created by RichGerg - built as a lightweight a lightweight Bash script to detect and block SSH brute force attacks by parsing failed login attempts.
+Created by RichGerg - built as a lightweight Bash script to detect and block SSH brute force attacks by parsing failed login attempts.
