@@ -50,7 +50,7 @@ This script monitors the system's `auth.log` file for repeated failed SSH login 
 Blocking the following IP addresses with UFW:
 192.168.1.25
 203.0.113.42
-...
+```
 
 ---
 
