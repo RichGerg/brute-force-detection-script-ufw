@@ -54,7 +54,8 @@ Blocking the following IP addresses with UFW:
 
 ---
 
-🧠 Challenges & Lessons Learned
+## 🧠 Challenges & Lessons Learned
+
 One key challenge was distinguishing between legitimate login errors and malicious brute force activity. By requiring 10 or more attempts from the same IP within the log file, the script avoids false positives while catching automated attack behavior.
 
 This project also provided valuable hands-on experience with:
@@ -65,7 +66,10 @@ Pattern matching with awk
 
 Defensive automation using Linux-native tooling
 
-📂 Usage
+---
+
+## 📂 Usage
+
 Clone or copy the script into your Linux environment.
 
 Update the log_file path if necessary (default: /var/log/auth.log).
@@ -78,7 +82,10 @@ Edit
 sudo bash ssh-brute-blocker.sh
 💡 Note: You must have UFW installed and active for the script to work.
 
-🔑 Security Note
+---
+
+## 🔑 Security Note
+
 This script only targets brute force SSH login attempts found in auth.log. To defend against broader attack types (e.g., web app exploits, FTP brute force), consider extending this concept or implementing a modular system like Fail2Ban.
 
 ---
