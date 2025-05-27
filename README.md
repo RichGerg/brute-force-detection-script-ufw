@@ -25,7 +25,7 @@ Enhance system security by identifying and blocking IP addresses involved in bru
 
 This script monitors the system's `auth.log` file for repeated failed SSH login attempts. It extracts the offending IP addresses, counts the number of attempts per IP, and blocks those with **10 or more** failed login attempts using UFW.
 
-> Inspired by a final project in cybersecurity training, this tool was built to serve as a proactive and transparent mitigation layer against brute force login attempts.
+This tool was built to serve as a proactive and transparent mitigation layer against brute force login attempts.
 
 ---
 
