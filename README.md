@@ -42,6 +42,8 @@ This tool was built to serve as a proactive and transparent mitigation layer aga
 
 4. Blocks those IPs by inserting a `deny` rule at the top of the UFW firewall.
 
+![Mock Form](https://www.phishy.cloud/assets/img/proj/mock5.jpg)
+
 ---
 
 ## 🧪 Sample Output
